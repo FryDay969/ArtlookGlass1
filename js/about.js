@@ -26,11 +26,8 @@ var m = document.getElementById('menubtn1'),
     sixthli = document.getElementById('sixth-li');
 
 m.onclick = function() {
-    if (n.style.display == 'none') {
+    if (n.style.display != 'block') {
         n.style.display = 'block';
-        // x.style.flexDirection = 'column';
-        // x.style.alignItems = 'center';
-        // x.style.position = 'absolute';
     } else {
         n.style.display = 'none';
     }
@@ -38,15 +35,16 @@ m.onclick = function() {
 
 
 link2.onclick = function() {
-    if (sublink1.style.display == 'none') {
+    if (sublink1.style.display != 'flex') {
         sublink1.style.display = 'flex';
+
     } else {
         sublink1.style.display = 'none';
     }
 };
 
 link3.onclick = function() {
-    if (sublink2.style.display == 'none') {
+    if (sublink2.style.display != 'flex') {
         sublink2.style.display = 'flex';
     } else {
         sublink2.style.display = 'none';
@@ -54,7 +52,7 @@ link3.onclick = function() {
 };
 
 link4.onclick = function() {
-    if (sublink3.style.display == 'none') {
+    if (sublink3.style.display != 'flex') {
         sublink3.style.display = 'flex';
     } else {
         sublink3.style.display = 'none';
@@ -62,50 +60,50 @@ link4.onclick = function() {
 };
 
 
-link2.onmouseenter = function() {
-	document.getElementById("text-about").style.filter = "blur(2px)";
-    document.getElementById("topproducts").style.filter = "blur(2px)";
-    document.getElementById("categories").style.filter = "blur(2px)";
-    document.getElementById("advantages").style.filter = "blur(2px)";
-    document.getElementById("contactus-form").style.filter = "blur(2px)";
+// link2.onmouseenter = function() {
+// 	document.getElementById("text-about").style.filter = "blur(2px)";
+//     document.getElementById("topproducts").style.filter = "blur(2px)";
+//     document.getElementById("categories").style.filter = "blur(2px)";
+//     document.getElementById("advantages").style.filter = "blur(2px)";
+//     document.getElementById("contactus-form").style.filter = "blur(2px)";
 
-}
-link2.onmouseleave = function() {
-    document.getElementById("text-about").style.filter = "none";
-    document.getElementById("topproducts").style.filter = "none";
-    document.getElementById("categories").style.filter = "none";
-    document.getElementById("advantages").style.filter = "none";
-    document.getElementById("contactus-form").style.filter = "none";
-}
+// }
+// link2.onmouseleave = function() {
+//     document.getElementById("text-about").style.filter = "none";
+//     document.getElementById("topproducts").style.filter = "none";
+//     document.getElementById("categories").style.filter = "none";
+//     document.getElementById("advantages").style.filter = "none";
+//     document.getElementById("contactus-form").style.filter = "none";
+// }
 
-link3.onmouseenter = function() {
-	document.getElementById("text-about").style.filter = "blur(2px)";
-    document.getElementById("topproducts").style.filter = "blur(2px)";
-    document.getElementById("categories").style.filter = "blur(2px)";
-    document.getElementById("advantages").style.filter = "blur(2px)";
-    document.getElementById("contactus-form").style.filter = "blur(2px)";
+// link3.onmouseenter = function() {
+// 	document.getElementById("text-about").style.filter = "blur(2px)";
+//     document.getElementById("topproducts").style.filter = "blur(2px)";
+//     document.getElementById("categories").style.filter = "blur(2px)";
+//     document.getElementById("advantages").style.filter = "blur(2px)";
+//     document.getElementById("contactus-form").style.filter = "blur(2px)";
 
-}
-link3.onmouseleave = function() {
-    document.getElementById("text-about").style.filter = "none";
-    document.getElementById("topproducts").style.filter = "none";
-    document.getElementById("categories").style.filter = "none";
-    document.getElementById("advantages").style.filter = "none";
-    document.getElementById("contactus-form").style.filter = "none";
-}
+// }
+// link3.onmouseleave = function() {
+//     document.getElementById("text-about").style.filter = "none";
+//     document.getElementById("topproducts").style.filter = "none";
+//     document.getElementById("categories").style.filter = "none";
+//     document.getElementById("advantages").style.filter = "none";
+//     document.getElementById("contactus-form").style.filter = "none";
+// }
 
-link4.onmouseenter = function() {
-	document.getElementById("text-about").style.filter = "blur(2px)";
-    document.getElementById("topproducts").style.filter = "blur(2px)";
-    document.getElementById("categories").style.filter = "blur(2px)";
-    document.getElementById("advantages").style.filter = "blur(2px)";
-    document.getElementById("contactus-form").style.filter = "blur(2px)";
+// link4.onmouseenter = function() {
+// 	document.getElementById("text-about").style.filter = "blur(2px)";
+//     document.getElementById("topproducts").style.filter = "blur(2px)";
+//     document.getElementById("categories").style.filter = "blur(2px)";
+//     document.getElementById("advantages").style.filter = "blur(2px)";
+//     document.getElementById("contactus-form").style.filter = "blur(2px)";
 
-}
-link4.onmouseleave = function() {
-    document.getElementById("text-about").style.filter = "none";
-    document.getElementById("topproducts").style.filter = "none";
-    document.getElementById("categories").style.filter = "none";
-    document.getElementById("advantages").style.filter = "none";
-    document.getElementById("contactus-form").style.filter = "none";
-}
+// }
+// link4.onmouseleave = function() {
+//     document.getElementById("text-about").style.filter = "none";
+//     document.getElementById("topproducts").style.filter = "none";
+//     document.getElementById("categories").style.filter = "none";
+//     document.getElementById("advantages").style.filter = "none";
+//     document.getElementById("contactus-form").style.filter = "none";
+// }

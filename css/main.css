@@ -8241,6 +8241,12 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Roboto light';
+  src: local("Roboto Light"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 .fstcol {
   line-height: 2;
   text-indent: 2em; }
@@ -8419,6 +8425,9 @@ body {
           left: 47%;
           opacity: 0;
           display: none; }
+          @media screen and (max-width: 992px) {
+            .navigation .header nav ul li .submenu-glass {
+              display: none; } }
         .navigation .header nav ul li .submenu-mirror {
           position: absolute;
           display: -webkit-box;
@@ -8467,9 +8476,6 @@ body {
           opacity: 1;
           -webkit-animation: ani1 0.5s ease-out;
                   animation: ani1 0.5s ease-out; }
-          @media screen and (max-width: 992px) {
-            .navigation .header nav ul .liglass:hover .submenu-glass {
-              display: none; } }
         .navigation .header nav ul .limirror:hover .submenu-mirror {
           display: block;
           opacity: 1;
