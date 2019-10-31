@@ -8267,6 +8267,26 @@ a.text-dark:hover, a.text-dark:focus {
   width: 430px;
   height: 400px;
   padding: 10px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .gallery img {
+      width: 280px;
+      height: 315px; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .gallery img {
+      width: 235px;
+      height: 230px; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .gallery img {
+      width: 235px;
+      height: 230px; } }
+  @media screen and (max-width: 576px) {
+    .gallery img {
+      width: 235px;
+      height: 230px; } }
+  @media screen and (max-width: 375px) {
+    .gallery img {
+      width: 165px;
+      height: 155px; } }
 
 .gallery .table-top {
   display: none;
@@ -8974,6 +8994,21 @@ footer .fa-youtube:hover {
   position: absolute;
   left: 20%;
   top: 50%; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-control-prev-icon {
+      width: 30px;
+      height: 30px;
+      left: 1%; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .carousel-control-prev-icon {
+      width: 30px;
+      height: 30px;
+      left: 10%; } }
+  @media screen and (max-width: 375px) {
+    .carousel-control-prev-icon {
+      width: 10px;
+      height: 10px;
+      left: 0%; } }
 
 .carousel-control-next-icon {
   border: 1px solid #fff;
@@ -8989,3 +9024,18 @@ footer .fa-youtube:hover {
   position: absolute;
   left: 55%;
   top: 50%; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-control-next-icon {
+      width: 30px;
+      height: 30px;
+      left: 75%; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .carousel-control-next-icon {
+      width: 30px;
+      height: 30px;
+      left: 55%; } }
+  @media screen and (max-width: 375px) {
+    .carousel-control-next-icon {
+      width: 10px;
+      height: 10px;
+      left: 87%; } }
