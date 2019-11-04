@@ -1,3 +1,8 @@
+
+AOS.init({
+  duration: 2000
+});
+
 var m = document.getElementById('menubtn1'),
     n = document.getElementById('navbar'),
     l = document.getElementById('link1,link2,link3,link4,link5,link6'),
@@ -221,3 +226,4 @@ link4.onclick = function() {
 //      tabletop.style.display = 'none';
 //    }
 // };
+
