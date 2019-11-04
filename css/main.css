@@ -9039,3 +9039,11 @@ footer .fa-youtube:hover {
       width: 10px;
       height: 10px;
       left: 87%; } }
+
+@media screen and (max-width: 376px) {
+  .glass-types img {
+    margin: 0px !important; } }
+
+@media screen and (max-width: 376px) {
+  .glass-types h2 {
+    text-align: center !important; } }
